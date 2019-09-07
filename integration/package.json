@@ -19,11 +19,13 @@
     "ts-node": "^8.3.0"
   },
   "scripts": {
+    "cypress:open": "BROWSER=none yarn start & cypress open",
+    "cypress:run": "cypress run",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "cypress:open": "BROWSER=none yarn start & cypress open"
+    "test": " react-scripts test --watchAll=false && yarn cypress:run",
+    "test:watch": "yarn test --watchAll=true",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

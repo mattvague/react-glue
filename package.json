@@ -9,6 +9,7 @@
 	"author": "Matt Vague <mattvague@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"publish": "lerna run tsc && lerna publish"
+		"publish": "lerna run tsc && lerna publish",
+		"test": "lerna run test && cd integration && yarn test"
 	}
 }
