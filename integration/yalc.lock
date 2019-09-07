@@ -1,8 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "@react-glue/core": {
-      "signature": "1f55fcd02747e5c17ac9161908dccb93"
-    }
-  }
-}
