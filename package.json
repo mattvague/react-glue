@@ -1,8 +1,14 @@
 {
-	"devDependencies": {},
+	"devDependencies": {
+		"@types/node": "^12.7.4",
+		"typescript": "^3.6.2"
+	},
 	"name": "react-glue",
 	"version": "0.0.0",
 	"main": "index.js",
 	"author": "Matt Vague <mattvague@gmail.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"publish": "lerna run tsc && lerna publish"
+	}
 }
