@@ -1,0 +1,8 @@
+{
+	"devDependencies": {},
+	"name": "react-glue",
+	"version": "0.0.0",
+	"main": "index.js",
+	"author": "Matt Vague <mattvague@gmail.com>",
+	"license": "MIT"
+}
